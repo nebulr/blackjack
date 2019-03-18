@@ -1,0 +1,17 @@
+:root {
+  --logo-height: 223px;
+  --logo-width: 326px;
+  --primary-red: #cc0000;
+}
+
+body {
+  background-color: green;
+}
+
+* {
+  font-family: "Georgia";
+}
+.card {
+  width: 100px;
+  height: auto;
+}

@@ -1,0 +1,25 @@
+.logo {
+  height: var(--logo-height);
+  width: var(--logo-width);
+  top: calc(40vh - var(--logo-height) / 2);
+  left: calc(50vw - var(--logo-width) / 2);
+  top: -webkit-calc(40vh - var(--logo-height) / 2);
+  left: -webkit-calc(50vw - var(--logo-width) / 2);
+  position: absolute;
+}
+
+.start {
+  background-color: var(--primary-red);
+  border-radius: 9px;
+  border-color: white;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  height: 50px;
+  width: 150px;
+  font-size: 36px;
+  position: absolute;
+  left: calc(50vw - 75px);
+  top: calc(70vh - 25px);
+  left: -webkit-calc(50vw - 75px);
+  top: -webkit-calc(70vh - 25px);
+}
